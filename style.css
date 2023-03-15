@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+
+body {
+    background-color: black;
+}
+
+h1, h2, h3, h4, h5, span, a {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#logo-text {
+    margin-left: 39%;
+}
+
+#q {
+    margin-left: 41%
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+#n {
+    margin-left: 93%;
+    font-family: 'Raleway', sans-serif;
+    size: 6%;
+}
+
+#link-1 {
+    margin-top: 18%;
+    font-family: 'Poppins', sans-serif;
+}

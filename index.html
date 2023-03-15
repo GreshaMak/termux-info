@@ -1,0 +1,122 @@
+<!DOCKTYPE html>
+<html>
+    <header>
+        <link rel="stylesheet" href="style.css">
+        <title>Main TermuxInfo</title>
+    </header>
+    <body>
+        <div id = logo-text>
+            <h1>TermuxInfo</h1>
+        </div>
+        <h4>Termux - это эмулятор терминала для Android, включающий большую коллекцию пакетов Linux.</h4>
+        <h2>Системные требования</h2>
+        <span>Android 5.0 - 12.0<br>Процессоры: AArch64, ARM, i686, x86_64.<br>Не менее 300 МБ дискового пространства.</span>
+
+        </div id = "pkg">
+            <h2>Полезные пакеты</h2>
+            <h3>Termux API</h3>
+            <span>Предоставляет функциональные возможности устройства в виде API<br>Установка пакета: pkg install termux-api</span>
+            <h4>Команды:</h4>
+            <span>termux-battery-status<br>
+                Получите состояние аккумулятора устройства.<br>
+                termux-brightness<br>
+                Установите яркость экрана от 0 до 255.<br>
+                termux-call-log<br>
+                Список журнала вызовов.<br>
+                termux-camera-info<br>
+                Получите информацию о камерах устройств.<br>
+                termux-camera-photo<br>
+                Сделайте фотографию и сохраните ее в файл в формате JPEG.<br>
+                termux-clipboard-get<br>
+                Получите текст системного буфера обмена.<br>
+                termux-clipboard-set<br>
+                Задайте текст системного буфера обмена.<br>
+                termux-contact-list<br>
+                Перечислите все контакты.<br>
+                termux-dialog<br>
+                Отображение диалогового окна ввода текста.<br>
+                termux-download<br>
+                Загрузите ресурс с помощью системного менеджера загрузок.<br>
+                termux-fingerprint<br>
+                Используйте датчик отпечатков пальцев на устройстве для проверки подлинности.<br>
+                termux-infrared frequencies<br>
+                Запросите поддерживаемые несущие частоты инфракрасного передатчика.<br>
+                termux-infrared-transmission<br>
+                Передача инфракрасного рисунка.<br>
+                termux-job-scheduler<br>
+                Запланируйте выполнение сценария Termux позже или периодически.<br>
+                termux-location<br>
+                Получите местоположение устройства.<br>
+                termux-media-player<br>
+                Воспроизведение медиафайлов.<br>
+                termux-media-scan<br>
+                Интерфейс MediaScanner, сделайте изменения файлов видимыми в галерее Android<br>
+                termux-microphone-recording<br>
+                Запись с помощью микрофона на устройстве.<br>
+                termux-уведомление<br>
+                Отображение системного уведомления.<br>
+                termux-notification-remove<br>
+                Удалите уведомление, ранее показанное с помощью termux-notification --id.<br>
+                termux-sensor<br>
+                Получайте информацию о типах датчиков, а также данные в реальном времени.<br>
+                termux-share<br>
+                Предоставьте общий доступ к файлу, указанному в качестве аргумента, или к тексту, полученному на stdin.<br>
+                termux-sms-list<br>
+                Список SMS-сообщений.<br>
+                termux-sms-send<br>
+                Отправьте SMS-сообщение на указанный номер (номера) получателя.<br>
+                termux-storage-get<br>
+                Запросить файл из системы и вывести его в указанный файл.<br>
+                termux-телефония-call<br>
+                Позвоните на номер телефона.<br>
+                termux-телефония-cellinfo<br>
+                Получайте информацию обо всей наблюдаемой информации о клетках от всех радиостанций на устройстве, включая первичные и соседние ячейки.<br>
+                termux-telephony-deviceinfo<br>
+                Получите сведения об устройстве телефонии.<br>
+                termux-toast<br>
+                Отображение временного всплывающего уведомления.<br>
+                termux-torch<br>
+                Переключатель светодиодной горелки на устройстве.<br>
+                termux-tts-engines<br>
+                Получите сведения о доступных механизмах преобразования текста в речь.<br>
+                termux-tts-speak<br>
+                Произнесение текста с помощью системного механизма преобразования текста в речь.<br>
+                termux-usb<br>
+                Список USB-устройств или доступ к ним.<br>
+                termux-vibration<br>
+                Вибрируйте устройство.<br>
+                termux-volume<br>
+                Изменение громкости аудиопотока.<br>
+                termux-wallpaper<br>
+                Измените обои на устройстве.<br>
+                termux-wifi-connectioninfo<br>
+                Получите информацию о текущем подключении Wi-Fi.<br>
+                termux-wifi-enable<br>
+                Включите/выключите Wi-Fi.<br>
+                termux-wifi-scaninfo<br>
+                Получите информацию о последнем сканировании Wi-Fi.</span>
+                <h3>Ngrok</h3>
+                <span>Пакет для создания веб-сервера<br>Установка пакета: pkg install ngrok</a></a></span>
+                <h4>Команды</h4>
+                <span>
+                    ./ngrok - первый запуск<br>
+                    ./ngrok http 80 - запуск сервера<br>
+                </span>
+                <h3>OpenSSH</h3>
+                <span>Пакет для для удаленного входа в систему по протоколу SSH<br>
+                Установка пакета: pkg install openssh</span>
+                <h4>Команды</h4>
+                <span>
+                    sshd - запуск OPENSSH сервера<br>
+                    pkill sshd - остановка<br>
+                    passwd - установка нового пароля<br>
+                    <br><br><br><br><br>
+                </span>
+        </div>
+        <div id = "links">
+            <a href = "https://github.com/termux/?ysclid=ldygma0au2157095395">Страница Termux на GitHub</a>
+            <br><br>
+            <a herf = "https://wiki.termux.com/wiki/Main_Page">TermuxWiki      </a>
+        </div>
+    </body>
+</html>
