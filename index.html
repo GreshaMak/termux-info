@@ -5,9 +5,7 @@
         <title>Main TermuxInfo</title>
     </header>
     <body>
-        <div id = logo-text>
-            <h1>TermuxInfo</h1>
-        </div>
+        <h1 class="title-example">TermuxInfo</h1>
         <h4>Termux - это эмулятор терминала для Android, включающий большую коллекцию пакетов Linux.</h4>
         <h2>Системные требования</h2>
         <span>Android 5.0 - 12.0<br>Процессоры: AArch64, ARM, i686, x86_64.<br>Не менее 300 МБ дискового пространства.</span>
@@ -95,6 +93,7 @@
                 Включите/выключите Wi-Fi.<br>
                 termux-wifi-scaninfo<br>
                 Получите информацию о последнем сканировании Wi-Fi.</span>
+                <br><br>
                 <h3>Ngrok</h3>
                 <span>Пакет для создания веб-сервера<br>Установка пакета: pkg install ngrok</a></a></span>
                 <h4>Команды</h4>
@@ -102,6 +101,13 @@
                     ./ngrok - первый запуск<br>
                     ./ngrok http 80 - запуск сервера<br>
                 </span>
+                <br><br>
+                <h3>Apache2</h3>
+                <span>Пакет для собздания веб-сервера<br>Установка пакета: pkg install apache2</span>
+                <h4>Команды</h4>
+                <span>apachectl - запуск сервера<br>
+                apachectl -k stop - остановка сервера</span>
+                <br><br>
                 <h3>OpenSSH</h3>
                 <span>Пакет для для удаленного входа в систему по протоколу SSH<br>
                 Установка пакета: pkg install openssh</span>
@@ -110,8 +116,13 @@
                     sshd - запуск OPENSSH сервера<br>
                     pkill sshd - остановка<br>
                     passwd - установка нового пароля<br>
-                    <br><br><br><br><br>
                 </span>
+                <br><br>
+                <h3>Nano</h3>
+                <span>Пакет для редактирования текстовых файлов<br>
+                Установка пакета: pkg install Nano</span>
+                <h4>Команды</h4>
+                <span>nano *путь к файлу* - открытие файла</span><br><br>
         </div>
         <div id = "links">
             <a href = "https://github.com/termux/?ysclid=ldygma0au2157095395">Страница Termux на GitHub</a>

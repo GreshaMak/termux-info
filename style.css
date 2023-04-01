@@ -32,3 +32,65 @@ p {
     margin-top: 18%;
     font-family: 'Poppins', sans-serif;
 }
+
+h1.title-example{
+    color: #ffffff; /* Цвет заголовка */
+    text-align: center; /* Текст по центру */
+}
+/*  CSS код для линии над заголовком */
+h1.title-example:before {
+    content: '';
+    display: block;
+    height: 1px; /* Высота линии */
+    background: #ffffff; /* Цвет линии */
+    width: 150px; /* Ширина линии до наведения */
+    margin: 0 auto 10px; /* Отступ с боков по центру и снизу */
+	transition: 0.7s; /* Время, за которое линия возвращается после наведения */
+}
+h1.title-example:hover:before {
+    width: 250px; /* Ширина линии при наведении */
+	transition: ease-out 0.7s; /* Время, за которое линия расширяется при наведении */
+}
+/*  CSS код для линии под заголовком */
+h1.title-example:after {
+    content: '';
+    display: block;
+    height: 1px; /* Высота линии */
+    background: #ffffff; /* Цвет линии */
+    width: 150px; /* Ширина линии до наведения */
+    margin: 10px auto 0; /* Отступ с боков по центру и сверху */
+	transition: 0.7s; /* Время, за которое линия возвращается после наведения */
+}
+h1.title-example:hover:after {
+    width: 250px; /* Ширина линии при наведении */
+	transition: ease-out 0.7s; /* Время, за которое линия расширяется при наведении */
+}
+
+h2 {
+    color: #ffffff; /* Цвет текста */
+    background: rgb(0, 0, 0); /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    transition: 1s linear; /* Время изменения */
+}
+h2:hover {
+    color: #000000; /* Цвет текста */
+    background: #ffffff; /* Цвет фона */
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    color: #606060; /* Цвет  текста */
+    font-size: 2em; /* Размер  текста */
+    font-weight: bold;
+    padding: 20px 0px;
+    text-transform: uppercase;
+    line-height: 1;
+    -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+  }
+  h3:hover{
+    color: #ffffff; /* Меняем цвет текста */
+    -webkit-text-shadow: 2px 2px 2px #000;
+    -moz-text-shadow: 2px 2px 2px #000;
+        text-shadow: 2px 2px 2px #000;
+  }
